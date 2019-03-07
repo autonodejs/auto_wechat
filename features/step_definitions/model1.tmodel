@@ -1,0 +1,101 @@
+﻿{
+  "ntype": "app",
+  "process": null,
+  "controls": [
+    {
+      "ntype": "uia",
+      "nname": "Window",
+      "description": "",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "WeChatMainWndForPC",
+        "title": "微信"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "WeChatMainWndForPC",
+        "title": "微信",
+        "boundingRectangle": "345,166,782,534"
+      },
+      "image": {
+        "imgPath": "Window.png",
+        "rect": "1,1,782,534"
+      },
+      "children": [
+        {
+          "ntype": "virtual",
+          "nname": "msg",
+          "description": "",
+          "identifyProperties": {
+            "boundingRectangle": "2,64,55,48",
+            "align": "0"
+          }
+        },
+        {
+          "ntype": "virtual",
+          "nname": "user",
+          "description": "",
+          "identifyProperties": {
+            "boundingRectangle": "61,62,245,60",
+            "align": "0"
+          }
+        },
+        {
+          "ntype": "virtual",
+          "nname": "editmsg",
+          "description": "",
+          "identifyProperties": {
+            "boundingRectangle": "0,37,469,72",
+            "align": "3"
+          }
+        },
+        {
+          "ntype": "virtual",
+          "nname": "send",
+          "description": "",
+          "identifyProperties": {
+            "boundingRectangle": "678,497,76,27",
+            "align": "0"
+          }
+        }
+      ]
+    },
+    {
+      "ntype": "uia",
+      "nname": "Window1",
+      "description": "",
+      "identifyProperties": {
+        "type": "Window",
+        "className": "Notepad"
+      },
+      "cachedProperties": {
+        "type": "Window",
+        "className": "Notepad",
+        "title": "无标题 - 记事本",
+        "boundingRectangle": "378,192,658,524"
+      },
+      "children": [
+        {
+          "ntype": "uia",
+          "nname": "文本编辑器",
+          "description": "",
+          "identifyProperties": {
+            "type": "Document",
+            "automationId": "15"
+          },
+          "cachedProperties": {
+            "automationId": "15",
+            "type": "Document",
+            "className": "Edit",
+            "name": "文本编辑器",
+            "boundingRectangle": "386,243,642,465"
+          },
+          "image": {
+            "imgPath": "文本编辑器.png",
+            "rect": "1,1,642,465"
+          }
+        }
+      ]
+    }
+  ]
+}
